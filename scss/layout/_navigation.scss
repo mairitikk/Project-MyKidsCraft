@@ -1,0 +1,28 @@
+.navbar {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    list-style: none;
+    height: 100%;
+
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: color(primary);
+    font-weight: bolder;
+    font-size: size(xl);
+    font-family: 'Greate Vibes', cursive;
+    transition: all .3s;
+    
+    &:hover {
+        color: lighten(color(primary), 40%);
+    }
+}
